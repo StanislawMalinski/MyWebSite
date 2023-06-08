@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/mystyles.css">
+    <title>Stanely - kontakt</title>
+</head>
+<body>
+    <!-- Obowiązkowy nagłówek oraz menu -->
+    <div class="header-container">
+        <h1 class="tilte">To jest strona o Stanisławie</h1>
+        <div class="header-language-container">
+                <img src="/images/polish_icon_flag.png" alt="Język Polski" class="language_icon" onClick="setLanguage('pl');">
+                <img src="/images/united_kingdom_icon_flag.png" alt="Language Engliesh" class="language_icon" onClick="setLanguage('en')">
+        </div>
+    </div>
+    <div class="menu-bar-container">
+        <button class="menu-bar-button" onclick="window.location.href='moja_strona.html';">
+            O mnie
+        </button>
+        <button class="menu-bar-button" onclick="window.location.href='moje_projekty.html';">
+            O mojich projektach
+        </button>
+        <button class="menu-bar-button" onclick="window.location.href='moja_edukacja.html';">
+            Moja edukacja akademicka
+        </button>
+        <button class="menu-bar-button" onclick="window.location.href='kontakt.html';">
+            Kontak ze mną
+        </button>
+        <input class="menu-bar-search" type="search" name="Czego tu szukasz?" placeholder="Czego tu szukasz kurde?">
+    </div>
+<script src="../scripts/language.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+* {
+    font-family: 'Courier New', monospace;
+}
+
+button.menu-bar-button {
+    color: white;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    margin: 3px;
+    height: 30px;
+    font-size:medium;
+    transition: background-color 0.5s,
+                box-shadow 0.8s,
+                color 0.5s,
+                font-weight 0.5s;
+    border-radius: 2px;
+    padding: 0px;
+}
+
+input.menu-bar-search {
+    background-color: rgb(123, 122, 122);
+    border: 0px;
+    margin: 2px;
+    border-radius: 2px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+input.menu-bar-search::placeholder {
+    color: rgb(195, 195, 195);
+}
+
+input.menu-bar-search:focus {
+    background-color: rgb(151, 150, 150);
+}
+
+button.menu-bar-button:hover {
+    background-color: rgb(151, 150, 150);   
+    box-shadow: 3px 2px 0px rgb(71, 71, 71);
+    color: black;
+    font-weight: bold;
+}
+
+.header-container{
+    display: grid;
+    grid-template-columns: 97% 3%;
+}
+
+.header-language-container {
+    display: grid;
+    align-content: space-evenly;
+}
+
+.language_icon {
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+    margin: 0px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.title {
+    display: inline;
+}
+
+.content-window {
+    background-color: gray;
+    display: inline;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 0px rgb(78, 78, 78);
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:stretch;
+    align-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.menu-bar-container {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 30px;
+    padding: 3px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background-color: rgb(39, 38, 38);
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    justify-content:space-around;
+    position: relative;
+}
+
+#short-introduction {
+    margin: 10px;
+    width: 30%;
+}
+
+#story {
+    margin: 10px;
+    width: 50%;
+}
+
+#whole-page {
+    width: 95%;
+    display: block; 
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
